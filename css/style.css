@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+h1 {
+    background-color: red;
+    color: white;
+    padding: 25px;
+    margin: 0;
+}
+
+h2 {
+    background-color: white;
+    color: black;
+}
+
+h4 {
+    background-color: blue;
+    color: white;
+    margin: 0;
+    padding: 10px 0 10px 10px;
+}
+
+p {
+    background-color: white;
+    color: black;
+    font-size: 16px;
+}
+
+a:link {
+    color: white;
+    background-color: blue;
+    text-decoration: none;
+}
+
+.mainBlock {
+    padding: 15px;
+}
+.contentBlock{
+    float: left;
+    width: 600px;
+    display: inline;
+}
+.bulletinBlock{
+    float: right;
+    border: 1px solid #000000;
+    padding: 10px;
+    margin: 6px;
+}
+.contentBlock{
+    clear: both;
+}
+.copyRightText{
+    background-color: gray;
+    padding: 10px;
+    clear: both;
+}
