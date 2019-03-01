@@ -1,0 +1,38 @@
+h1{
+    color:blue;
+    margin: 0px;
+    padding:0px;}
+h2{color: red;}
+h3{color:green;font-style:oblique;}
+h4{background-color: green; color: black;margin:0;padding:15px;}
+a:link {
+    color: black;
+    background-color: green;
+    text-decoration: none;
+    margin: 0px; padding: 15px;
+}
+.contentblock{
+    float: left;
+    width: 800px;
+    height: 700px;
+    display:inline;
+    background-color: white;
+
+}
+.imageblock{
+    background-image:url("https://cdn4.iconfinder.com/data/icons/flowers-vol-4/48/156-512.png");
+    float:left;
+    width: 300px;
+    height: 300px;
+    margin:20px;
+    padding:0px;
+    display:inline;
+}
+.sideblock{
+    float: right;
+    width: 300px;
+    height: 400px;
+    color: red;
+    text-decoration: underline;
+    display: inline;
+}
