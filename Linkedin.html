@@ -1,41 +1,64 @@
 <!DOCTYPE html> <!-- closing tag missed-->
 <html>
- <head>
- 	<title type="text/css">Linked in</title>
- 	<link rel="stylesheet" href="css/Linkedin.css" /> <!-- closing tag missed -->
- <body>
- 	<div class="headerblock">
- 	  <h1>
- 	 	<img src="assets/Linkedin.png" width="111"; height="28";></img>
- 	 	<input type="text" value=""></input><input type="text" value=""></input>
- 	 	<input type="button" value="search">
- 	 </h1>
-    </div> <!-- closing tags didnt have any attributes like style or class or id-->
-    <div>
-     <h2><pre style= "font-family: sans-serif;font-size: large;
+<head>
+    <title type="text/css">Linked in</title>
+    <link rel="stylesheet" href="css/Linkedin.css"/> <!-- closing tag missed -->
+<body>
+<div class="headerblock">
+    <div style="
+    display: inline-block;
+    width: 600px;
+">
+        <img src="https://static.licdn.com/sc/h/95o6rrc5ws6mlw6wqzy0xgj7y" width="111" ;="" height="28" style="
+    margin-left: 150px;
+">
+    </div>
+    <div style="float: right;margin-right: 300px;">
+        <input placeholder="Email" type="text" value="" style="
+    /* padding: 8px 0; */
+    /* width: 220px; */
+"><input placeholder="password" type="text" value="">
+        <button value="Submit" style="
+    height: 30px;
+    width: 65px;
+    border: 1px solid white;
+    background: none;
+    font-family: sans-serif;
+    color: white;
+">Submit
+        </button>
+    </div>
+
+
+</div>
+<div>
+    <div class="body-background">
+        <h2><pre style="font-family: sans-serif;font-size: large;
     text-align: center;">Be great at what you do
-Get started - it's free.</pre></h2>
+Get started - it's free.</pre>
+        </h2>
+    </div>
 
-     <h3 style="background-image: url();"> <!-- image url missed-->
-     	<img src="assets/Linkedin-back.jpg" height="500px" margin="0px" padding="30px"></img>
-    	First Name <br>
-    	<input type= "text" value=""> </input><br><br>
-    	Last Name <br>
-    	<input type= "text" value=""></input><br><br>
-    	Email <br>
-    	<input type="text" value=""></input><br><br>
-    	Password (6 or more characters)<br>
-    	<input type="text" value="" min="8" max="10"></input><br>
-      </h3>
-      </div>
-      <div class="footerblock" style="background-color:grey ;color: white;text-align: center;">
-      Find a Colleague
-      <input type="text" value=""></input><input type="text" value=""></input>
-      <input type="button" value="search"></input>
-      <h4>Linkedin member directory: ABCDEFGHIJKLMNOPQRSTUVWXYZ</h4> <!-- closing tag missed-->
-      </div>
+    <div style="display: none;"> <!-- image url missed-->
+        <img src="assets/Linkedin-back.jpg" height="500px" margin="0px" padding="30px"></img>
+        First Name <br>
+        <input type="text" value=""> </input><br><br>
+        Last Name <br>
+        <input type="text" value=""></input><br><br>
+        Email <br>
+        <input type="text" value=""></input><br><br>
+        Password (6 or more characters)<br>
+        <input type="text" value="" min="8" max="10"></input><br>
+    </div>
+</div>
+<div class="footerblock" style="background-color:grey ;color: white;text-align: center;">
+    Find a Colleague
+    <input type="text" value=""></input><input type="text" value=""></input>
+    <input type="button" value="search"></input>
+    <h4>Linkedin member directory: ABCDEFGHIJKLMNOPQRSTUVWXYZ</h4> <!-- closing tag missed-->
+</div>
 
 
-  </body>
- </head>
+</body>
+</head>
 </html>

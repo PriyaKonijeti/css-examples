@@ -1,8 +1,28 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
 .headerblock {
-    background: rgba(0, 20, 50, 80%);
+    background: rgba(0, 20, 50, 0.8);
     margin: 0px;
-    padding: 5px; /* rgba(0,20,50,0.5) */
-    padding-left: 216px;
+    padding: 15px; /* rgba(0,20,50,0.5) */
 }
 h2 {
 }
@@ -25,12 +45,11 @@ h3 {
     padding: 10px;
     clear: both;
 
-
 }
 
 h4 {
     font-weight: normal;
-    font-style: sans-serif; /* tha property is font-family eg: font-family: sans-serif */
+    font-family: sans-serif; /* tha property is font-family eg: font-family: sans-serif */
 }
 
 .footerblock {
@@ -39,4 +58,15 @@ h4 {
     padding: 25px;
     text-align: center;
     clear: both;
+}
+input[type="text"] {
+    padding: 8px 0;
+    width: 164px;
+    border: none;
+    margin-left: 10px;
+    outline: none;
+}
+.body-background {
+    height: 600px;
+    background: url("https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/4010051/1820/1213/m1/fpnw/wm1/hpsjekopinzhzbwalo19nvvdujhuhzo9t6gbrjd2aqmwddgbzgh1gn5wugivz7la-.jpg?1518691481&s=85cb7c0e77ccc7a3b25d5791bd70a741");
 }
