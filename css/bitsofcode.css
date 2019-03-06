@@ -1,0 +1,65 @@
+
+			h3{
+
+				font-family:cursive;
+				font-size: 100%;
+				font-weight: 100;
+			}
+			.headerblock{
+				background-color: white;
+				margin:0px;
+				padding:5px;
+			
+			}
+			.contentblock{
+				float:left;
+				width:700px;
+				height:800px;
+				margin-top: 0px;
+				margin: 100px;
+				display: inline;
+			}
+			.sideblock{
+				float: right;
+				width: 250px;
+				height: 150px;
+				display: inline;
+				border: solid 1px;
+				padding:10px;
+				margin:100px;
+				font-weight: 300;
+
+				
+			}
+			h2{
+				font-family: sans-serif;
+				font-size: 140%;
+			}
+			  
+			h1{
+				text-align: center;
+                font-family: fantasy;
+                font-size: 140%;
+                color: inherit;
+                text-decoration-color: darkslategray;
+			}
+
+			.footerblock{
+				margin: 0px;
+				height: 50px;
+				clear: both;
+				padding:50px;
+				text-align: center;
+			}
+			.hometemplate{
+				    border: 5px solid #ffdb3a;
+				    margin: 0px;
+			}
+			.pblock{
+				margin: 0px;
+				padding: 0px;
+				display: block;
+				font:inherit;
+				border: 0px;
+
+			}
