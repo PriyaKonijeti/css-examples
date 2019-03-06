@@ -63,3 +63,7 @@
 				border: 0px;
 
 			}
+			.border{
+
+				border:2px solid lightgrey;
+			}
